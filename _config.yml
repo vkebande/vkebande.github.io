@@ -1,0 +1,7 @@
+title: "Victor R. Kebande"
+description: "Cybersecurity & Critical Infrastructure Research"
+url: "https://vickebande.github.io"
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-sitemap
