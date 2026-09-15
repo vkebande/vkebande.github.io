@@ -8,7 +8,7 @@ Assistant Professor of Cybersecurity
  
 <br>
 
-Welcome to my research homepage.  
+Welcome to my research homepage my name is so and so.  
 I specialize in **Cybersecurity**, **Critical Infrastructure Protection**, and **Machine Learning for Threat Analysis**.  
 My work explores topics such as **IoT and IIoT Forensics**, **Blockchain-enhanced Security**, and **Quantum-Safe Cryptography**.
 
