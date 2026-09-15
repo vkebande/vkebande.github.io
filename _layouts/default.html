@@ -35,9 +35,45 @@ hr {
   border-top: 1px solid #333333;
   margin: 28px 0;
 }
+    .site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #333;
+}
+
+.site-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.site-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.site-header nav a {
+  font-size: 16px;
+  font-weight: bold;
+}
   </style>
 </head>
 <body>
+  <header class="site-header">
+  <a class="site-name" href="/">Victor R. Kebande</a>
+
+  <nav aria-label="Main navigation">
+    <a href="/#research-interests">Research</a>
+    <a href="/#recent-publications">Publications</a>
+    <a href="/#teaching">Teaching</a>
+    <a href="/#contact">Contact</a>
+  </nav>
+</header>
   <main>
     {{ content }}
   </main>
