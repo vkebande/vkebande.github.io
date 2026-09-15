@@ -13,7 +13,7 @@ I specialize in **Cybersecurity**, **Critical Infrastructure Protection**, and *
 My work explores topics such as **IoT and IIoT Forensics**, **Blockchain-enhanced Security**, and **Quantum-Safe Cryptography**.
 
 ---
-
+<a id="research-interests"></a>
 ## 🔬 Research Interests
 - Cybersecurity and Critical Infrastructure Security  
 - AI and Machine Learning for Threat Detection  
@@ -22,7 +22,7 @@ My work explores topics such as **IoT and IIoT Forensics**, **Blockchain-enhance
 - Quantum-Safe Security Architectures  
 
 ---
-
+<a id="Academic-Background"></a>
 ## 🎓 Academic Background
 - Ph.D. in Cybersecurity  
 - Postdoctoral Researcher at Luleå University of Technology, Sweden  
@@ -30,7 +30,7 @@ My work explores topics such as **IoT and IIoT Forensics**, **Blockchain-enhance
 - Assistant Professor, University of Colorado Denver  
 
 ---
-
+<a id="teaching"></a>
 ## 🧑🏽‍🏫 Teaching
 I teach and develop courses on:
 - **Computer Security (CSCY 3740)**
@@ -41,7 +41,7 @@ I teach and develop courses on:
 See more under the [Teaching](/teaching/) section.
 
 ---
-
+<a id="recent-publications"></a>
 ## 📘 Recent Publications
 - *Blockchain-Enhanced Security for Software-Defined Networks: A Comprehensive Review of SDN-Chain*, 2024  
 - *XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*, 2024  
@@ -59,7 +59,7 @@ See full list under [Publications](/publications/).
 More updates in [News](/news/).
 
 ---
-
+<a id="contact"></a>
 ## 📫 Contact
 **ORCID:** [0000-0000-0000-0000](#)  
 **Google Scholar:** [View Profile](#)  
