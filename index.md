@@ -3,66 +3,121 @@ layout: default
 title: Home
 ---
 
-# Victor R. Kebande
-Assistant Professor of Cybersecurity  
- 
-<br>
+<div class="home-grid">
 
-Welcome to my research homepage my name is so and so.  
-I specialize in **Cybersecurity**, **Critical Infrastructure Protection**, and **Machine Learning for Threat Analysis**.  
-My work explores topics such as **IoT and IIoT Forensics**, **Blockchain-enhanced Security**, and **Quantum-Safe Cryptography**.
+  <aside class="profile-column">
+    <img
+      class="profile-photo"
+      src="/victor-kebande.png"
+      alt="Portrait of Victor R. Kebande">
 
----
-<a id="research-interests"></a>
-## 🔬 Research Interests
-- Cybersecurity and Critical Infrastructure Security  
-- AI and Machine Learning for Threat Detection  
-- Blockchain and Software-Defined Networks  
-- Digital Forensics and Incident Response  
-- Quantum-Safe Security Architectures  
+    <h1 class="profile-title">Victor R. Kebande</h1>
 
----
-<a id="Academic-Background"></a>
-## 🎓 Academic Background
-- Ph.D. in Cybersecurity  
-- Postdoctoral Researcher at Luleå University of Technology, Sweden  
-- Visiting Researcher at Colorado State University  
-- Assistant Professor, University of Colorado Denver  
+    <p class="profile-role">
+      Assistant Professor of Cybersecurity<br>
+      University of Colorado Denver
+    </p>
 
----
-<a id="teaching"></a>
-## 🧑🏽‍🏫 Teaching
-I teach and develop courses on:
-- **Computer Security (CSCY 3740)**
-- **Data Security (CSCY 5800)**
-- **Malware Analysis**
-- **Network and Systems Security**
+    <p class="short-bio">
+      I am a cybersecurity researcher and educator specializing in
+      critical-infrastructure protection, digital forensics, blockchain
+      security, and machine-learning-based threat analysis.
+    </p>
+  </aside>
 
-See more under the [Teaching](/teaching/) section.
+  <div class="content-column">
 
----
-<a id="recent-publications"></a>
-## 📘 Recent Publications
-- *Blockchain-Enhanced Security for Software-Defined Networks: A Comprehensive Review of SDN-Chain*, 2024  
-- *XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*, 2024  
-- *XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*, 2025  
+    <section id="research">
+      <h2 class="section-heading">Current Research</h2>
 
-See full list under [Publications](/publications/).
+      <article class="research-feature">
+        <img
+          src="/51-percent-defense.png"
+          alt="Simulation results for early detection of blockchain hash-power concentration">
 
----
+        <div class="research-copy">
+          <h3>
+            Early Detection and Checkpoint Based Defense Against
+            51 Percent Attacks
+          </h3>
 
-## 📰 Latest News
-- 🏆 Named among the **Top 2% Researchers by Stanford University (2024)**  
-- 🎤 Presented at the **IEEE International Conference on Cybersecurity (2025)**  
-- 🧠 Leading research on **Smart Warehouse Security Frameworks**
+          <p>
+            This research investigates a two-layer defense against 51%
+            attacks in blockchain systems. The first layer monitors
+            mining-pool concentration and provides early warnings as hash
+            power approaches a dangerous threshold.
+          </p>
 
-More updates in [News](/news/).
+          <p>
+            The second layer uses checkpoint-based finality to limit the
+            depth of accepted chain reorganizations. Simulation experiments
+            evaluate detection lead time, robustness under different growth
+            and noise conditions, and the security–flexibility trade-offs
+            associated with checkpoint selection.
+          </p>
+        </div>
+      </article>
+    </section>
 
----
-<a id="contact"></a>
-## 📫 Contact
-**ORCID:** [0000-0000-0000-0000](#)  
-**Google Scholar:** [View Profile](#)  
-**GitHub:** [vkebande](https://github.com/vkebande)
+    <section id="news">
+      <h2 class="section-heading">News and Upcoming Events</h2>
 
----
+      <ul class="news-list">
+        <li>
+          <span class="news-label">Research</span>
+          Simulation experiments on early hash-power detection and
+          checkpoint-based mitigation are in progress.
+        </li>
+
+        <li>
+          <span class="news-label">Publication</span>
+          New publications and paper-acceptance announcements will appear here.
+        </li>
+
+        <li>
+          <span class="news-label">Conference</span>
+          Upcoming conference presentations and academic events will appear here.
+        </li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2 class="section-heading">Selected Publications</h2>
+
+      <ul class="simple-list">
+        <li>
+          Blockchain-Enhanced Security for Software-Defined Networks:
+          A Comprehensive Review of SDN-Chain.
+        </li>
+        <li>
+          Additional selected publications will be added here.
+        </li>
+      </ul>
+    </section>
+
+    <section id="teaching">
+      <h2 class="section-heading">Teaching</h2>
+
+      <ul class="simple-list">
+        <li>Data Security</li>
+        <li>Computer Security</li>
+        <li>Malware Analysis</li>
+        <li>Network and Systems Security</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-heading">Contact</h2>
+
+      <p>
+        GitHub:
+        <a href="https://github.com/vkebande">github.com/vkebande</a>
+      </p>
+
+      <p>
+        ORCID and Google Scholar links will be added here.
+      </p>
+    </section>
+
+  </div>
+</div>
