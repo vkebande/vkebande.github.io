@@ -2,7 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1">
+
+  <meta
+    name="description"
+    content="Academic website of Victor R. Kebande, cybersecurity researcher and Assistant Professor at the University of Colorado Denver.">
 
   <title>
     {{ page.title | default: "Home" }} | Victor R. Kebande
@@ -10,14 +17,14 @@
 
   <style>
     :root {
-  --background: #ffffff;
---surface: #f4f7fa;
---text: #1d2733;
---muted: #5d6875;
---green: #123f66;
---green-light: #2474a6;
---border: #d8e0e7;
-}
+      --background: #ffffff;
+      --surface: #f4f7fa;
+      --text: #1d2733;
+      --muted: #5d6875;
+      --accent: #123f66;
+      --accent-light: #2474a6;
+      --border: #d8e0e7;
+    }
 
     * {
       box-sizing: border-box;
@@ -29,11 +36,11 @@
 
     body {
       margin: 0;
+      color: var(--text);
+      background: var(--background);
       font-family: Arial, Helvetica, sans-serif;
       font-size: 17px;
       line-height: 1.7;
-      color: var(--text);
-      background: var(--background);
     }
 
     .page-container {
@@ -41,14 +48,16 @@
       margin: 0 auto;
     }
 
-   .site-header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: rgba(255, 255, 255, 0.98);
-  border-bottom: 1px solid var(--border);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
-}
+    /* Navigation header */
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.98);
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    }
 
     .header-inner {
       min-height: 88px;
@@ -59,7 +68,7 @@
     }
 
     .site-name {
-      color: var(--green);
+      color: var(--accent);
       font-size: 25px;
       font-weight: 700;
       text-decoration: none;
@@ -74,16 +83,18 @@
     }
 
     .site-navigation a {
-      color: var(--green);
+      color: var(--accent);
       font-size: 16px;
       font-weight: 700;
       text-decoration: none;
     }
 
-    .site-navigation a:hover,
-    .site-name:hover {
-      color: var(--green-light);
+    .site-name:hover,
+    .site-navigation a:hover {
+      color: var(--accent-light);
     }
+
+    /* General content */
 
     main {
       padding: 55px 0 70px;
@@ -92,7 +103,7 @@
     h1,
     h2,
     h3 {
-      color: var(--green);
+      color: var(--accent);
       line-height: 1.25;
     }
 
@@ -113,16 +124,18 @@
     }
 
     a {
-      color: var(--green);
+      color: var(--accent);
     }
 
     img {
       max-width: 100%;
     }
 
+    /* Homepage layout */
+
     .home-grid {
       display: grid;
-      grid-template-columns: 280px minmax(0, 1fr);
+      grid-template-columns: 320px minmax(0, 1fr);
       gap: 55px;
       align-items: start;
     }
@@ -133,18 +146,18 @@
     }
 
     .profile-photo {
-      width: 250px;
-      height: 250px;
+      width: 260px;
+      height: 260px;
       display: block;
       object-fit: cover;
       object-position: center top;
-      border: 2px solid var(--green);
+      border: 2px solid var(--accent);
       border-radius: 8px;
     }
 
     .profile-title {
       margin: 22px 0 5px;
-      color: var(--green);
+      color: var(--accent);
       font-size: 25px;
     }
 
@@ -171,6 +184,8 @@
       border-bottom: 1px solid var(--border);
     }
 
+    /* Featured research */
+
     .research-feature {
       overflow: hidden;
       background: var(--surface);
@@ -192,6 +207,8 @@
       margin: 0 0 12px;
     }
 
+    /* News and conferences */
+
     .news-list {
       padding: 0;
       margin: 0;
@@ -206,12 +223,61 @@
     .news-label {
       display: block;
       margin-bottom: 4px;
-      color: var(--green);
+      color: var(--accent);
       font-size: 14px;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.05em;
     }
+
+    /* Publications */
+
+    .publication-list {
+      margin-bottom: 26px;
+    }
+
+    .publication-item {
+      display: grid;
+      grid-template-columns: 75px minmax(0, 1fr);
+      gap: 22px;
+      padding: 22px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .publication-year {
+      color: var(--accent);
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .publication-item h3 {
+      margin: 0 0 5px;
+      font-size: 20px;
+    }
+
+    .publication-type {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .section-button {
+      display: inline-block;
+      padding: 11px 18px;
+      color: #ffffff;
+      background: var(--accent);
+      border-radius: 6px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .section-button:hover {
+      color: #ffffff;
+      background: var(--accent-light);
+      text-decoration: none;
+    }
+
+    /* Other lists */
 
     .simple-list {
       padding-left: 22px;
@@ -221,6 +287,8 @@
       margin-bottom: 10px;
     }
 
+    /* Footer */
+
     .site-footer {
       padding: 25px 0 40px;
       color: var(--muted);
@@ -229,7 +297,21 @@
       font-size: 14px;
     }
 
-    @media (max-width: 850px) {
+    /* Tablet layout */
+
+    @media (max-width: 900px) {
+      .home-grid {
+        grid-template-columns: 260px minmax(0, 1fr);
+        gap: 35px;
+      }
+
+      .profile-photo {
+        width: 230px;
+        height: 230px;
+      }
+    }
+
+    @media (max-width: 750px) {
       .header-inner {
         padding: 20px 0;
         align-items: flex-start;
@@ -254,9 +336,15 @@
       }
     }
 
+    /* Mobile layout */
+
     @media (max-width: 520px) {
       .page-container {
         width: min(100% - 30px, 1200px);
+      }
+
+      .site-name {
+        white-space: normal;
       }
 
       .site-navigation {
@@ -272,65 +360,34 @@
       .research-copy {
         padding: 21px;
       }
+
+      .publication-item {
+        grid-template-columns: 1fr;
+        gap: 5px;
+      }
     }
-  .publication-list {
-  margin-bottom: 26px;
-}
-
-.publication-item {
-  display: grid;
-  grid-template-columns: 75px minmax(0, 1fr);
-  gap: 22px;
-  padding: 22px 0;
-  border-bottom: 1px solid var(--border);
-}
-
-.publication-year {
-  color: var(--green);
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.publication-item h3 {
-  margin: 0 0 5px;
-  font-size: 20px;
-}
-
-.publication-type {
-  margin: 0;
-  color: var(--muted);
-  font-size: 15px;
-}
-
-.section-button {
-  display: inline-block;
-  padding: 11px 18px;
-  color: #ffffff;
-  background: var(--green);
-  border-radius: 6px;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.section-button:hover {
-  color: #ffffff;
-  background: var(--green-light);
-  text-decoration: none;
-}
+  </style>
 </head>
 
 <body>
   <header class="site-header">
     <div class="page-container header-inner">
-      <a class="site-name" href="/">Victor Kebande, PhD</a>
 
-      <nav class="site-navigation" aria-label="Main navigation">
+      <a class="site-name" href="/">
+        Victor Kebande, PhD
+      </a>
+
+      <nav
+        class="site-navigation"
+        aria-label="Main navigation">
+
         <a href="/#research">Research</a>
-<a href="/#publications">Publications</a>
-<a href="/#conferences">Conferences</a>
-<a href="/#teaching">Teaching</a>
-<a href="/#contact">Contact</a>
+        <a href="/#publications">Publications</a>
+        <a href="/#conferences">Conferences</a>
+        <a href="/#teaching">Teaching</a>
+        <a href="/#contact">Contact</a>
       </nav>
+
     </div>
   </header>
 
