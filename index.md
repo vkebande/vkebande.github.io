@@ -93,6 +93,9 @@ title: Home
           Additional selected publications will be added here.
         </li>
       </ul>
+      <p>
+  <a href="/publications/">View all publications →</a>
+</p>
     </section>
 
     <section id="teaching">
