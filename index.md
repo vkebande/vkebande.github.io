@@ -82,21 +82,66 @@ title: Home
     </section>
 
     <section id="publications">
-      <h2 class="section-heading">Selected Publications</h2>
+  <h2 class="section-heading">Selected Publications</h2>
 
-      <ul class="simple-list">
-        <li>
+  <div class="publication-list">
+
+    <article class="publication-item">
+      <span class="publication-year">2024</span>
+
+      <div>
+        <h3>
           Blockchain-Enhanced Security for Software-Defined Networks:
-          A Comprehensive Review of SDN-Chain.
-        </li>
-        <li>
-          Additional selected publications will be added here.
-        </li>
-      </ul>
-      <p>
-  <a href="/publications/">View all publications →</a>
-</p>
-    </section>
+          A Comprehensive Review of SDN-Chain
+        </h3>
+
+        <p class="publication-type">Journal Article</p>
+      </div>
+    </article>
+
+    <article class="publication-item">
+      <span class="publication-year">2026</span>
+
+      <div>
+        <h3>
+          Mitigating 51% Attacks in Blockchain Systems Through Early
+          Detection and Checkpoint-Based Defense
+        </h3>
+
+        <p class="publication-type">Current Research Manuscript</p>
+      </div>
+    </article>
+
+  </div>
+
+  <a class="section-button" href="/publications/">
+    View All Publications →
+  </a>
+</section>
+
+<section id="conferences">
+  <h2 class="section-heading">Conferences and Professional Activities</h2>
+
+  <ul class="news-list">
+    <li>
+      <span class="news-label">Conference Leadership</span>
+      General Chair, International Conference on Intelligent Digital
+      Forensics 2026.
+    </li>
+
+    <li>
+      <span class="news-label">Conference Presentation</span>
+      Conference presentations and invited research talks will be
+      listed here.
+    </li>
+
+    <li>
+      <span class="news-label">Professional Service</span>
+      Program committee, editorial, and peer-review activities will
+      be listed here.
+    </li>
+  </ul>
+</section>
 
     <section id="teaching">
       <h2 class="section-heading">Teaching</h2>
